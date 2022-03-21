@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://phileasdg.github.io/phileas-dazeley-gaist/test/",
-            "url": "https://phileasdg.github.io/phileas-dazeley-gaist/test/",
+            "id": "https://phileasdg.github.io/phileas-dazeley-gaist/standing-stones-and-megaliths-of-st-just/",
+            "url": "https://phileasdg.github.io/phileas-dazeley-gaist/standing-stones-and-megaliths-of-st-just/",
             "title": "Standing Stones and Megaliths of St Just - A GIS project",
             "summary": "I constructed the following ESRI ArcGIS StoryMap project for the college course&hellip;",
             "content_html": "<p>I constructed the following ESRI ArcGIS StoryMap project for the college course \"Geographic Information Systems\" taught by Professor Gordon Longsworth at the College of the Atlantic, in Fall 2020. I have embedded it below as a sample of my undergraduate GIS work. </p>\n<p>Although you are free to consult the project on this page, I recommend you follow <a href=\"https://storymaps.arcgis.com/stories/3edd0a80cd114d02af9bdeb1b446d30b\">this link</a> for a much enhanced and improved screenwide StoryMap experience.</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"100%\" height=\"500px\" src=\"https://storymaps.arcgis.com/stories/3edd0a80cd114d02af9bdeb1b446d30b?cover=false\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" allow=\"geolocation\"></iframe></div>",
@@ -23,7 +23,7 @@
                    "undergraduate work"
             ],
             "date_published": "2022-03-21T12:53:43-04:00",
-            "date_modified": "2022-03-21T15:55:12-04:00"
+            "date_modified": "2022-03-21T16:08:55-04:00"
         },
         {
             "id": "https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/",
@@ -38,7 +38,7 @@
                    "undergraduate work"
             ],
             "date_published": "2022-03-21T11:53:14-04:00",
-            "date_modified": "2022-03-21T15:46:37-04:00"
+            "date_modified": "2022-03-21T16:09:04-04:00"
         }
     ]
 }
