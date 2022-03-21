@@ -18,7 +18,7 @@
 </url>
 <url>
 <loc>https://phileasdg.github.io/phileas-dazeley-gaist/inquiries/</loc>
-<lastmod>2022-03-19T23:52:08-04:00</lastmod>
+<lastmod>2022-03-19T23:53:04-04:00</lastmod>
 <image:image>
 <image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/1/profile-banner-lighthouse.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -35,5 +35,33 @@
 <url>
 <loc>https://phileasdg.github.io/phileas-dazeley-gaist/resume-english/</loc>
 <lastmod>2022-03-19T18:55:41-04:00</lastmod>
+</url>
+<url>
+<loc>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/</loc>
+<lastmod>2022-03-21T12:23:50-04:00</lastmod>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-1.png</image:loc>
+<image:title><![CDATA[figure 1: Z = K * Delta]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-2.png</image:loc>
+<image:title><![CDATA[figure 2: M*(dV_i/dt) = -M*f*k*x*V_i+F_a+F_w+F_i+F_p+F+r]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-3.png</image:loc>
+<image:title><![CDATA[figure 3]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-4.png</image:loc>
+<image:title><![CDATA[figure 4]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-5.png</image:loc>
+<image:title><![CDATA[figure 5: a) Observed iceberg trajectories using data from the Antarctic Iceberg Tracking Database. b) One-year duration simulated trajectories for 200 icebergs of lengths ranging between 15 and 20 km using the drift and decay model proposed by Wagner et al. (2017). (Journal of Physical Oceanography 47, 7; 10.1175/JPO-D-16-0262.1)]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-6.png</image:loc>
+<image:title><![CDATA[Wagner et al. model map output showing iceberg trails grouped by size class.]]></image:title>
+</image:image>
 </url>
 </urlset>
