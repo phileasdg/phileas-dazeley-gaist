@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-21T15:41:20-04:00</updated>
+    <updated>2022-03-21T15:46:37-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://phileasdg.github.io/phileas-dazeley-gaist/test/"/>
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/test/</id>
+            <category term="undergraduate work"/>
 
-        <updated>2022-03-21T15:41:20-04:00</updated>
+        <updated>2022-03-21T15:42:48-04:00</updated>
             <summary>
                 <![CDATA[
                     I constructed this ESRI ArcGIS StoryMap project for the college course "Geographic&hellip;
@@ -40,7 +41,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-03-21T15:36:33-04:00</updated>
+        <updated>2022-03-21T15:46:37-04:00</updated>
             <summary>
                 <![CDATA[
                     I wrote this short essay for the college course "Polar Ecology and&hellip;
@@ -52,10 +53,9 @@
 <div class="layoutArea">
 <div class="column">
 <p>I wrote this short essay for the college course "Polar Ecology and Exploration" taught by Professor Sean Todd at College of the Atlantic in Winter 2020. I have reproduced it here as a sample of my undergraduate writing. </p>
-<p> </p>
-<h1>Introduction</h1>
+<h2>Introduction</h2>
 <p>This paper will explore and contextualise the principles and methods at the centre of contemporary iceberg drift and decay mathematical models. To do so, it will first examine the incentives for institutional efforts to track drifting icebergs. Secondly, this paper will engage in an extensive introductory exploration of iceberg drift and decay approximation formulas and dynamic and thermodynamic models and assess their respective strengths and limitations. Finally, it will describe the process of running a modern drift and decay model simulation using MATLAB and report the raw simulation results.</p>
-<p><span style="color: var(--headings-color); font-family: var(--font-base); font-size: 1.80203em; font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);">Incentives for iceberg tracking</span></p>
+<h3>Incentives for Iceberg tracking</h3>
 <p><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Icebergs are large masses of freshwater ice that form by breaking apart from a glacier, ice shelf, or larger icebergs, a process known as calving (Iceberg | Ice Formation, n.d.). In the Antarctic Circle, icebergs calve from the floating ice shelves of the Antarctic continent, which results in large and tall icebergs with steep cliff-like sides and flat tops, known as tabular icebergs (Ibid). In the Arctic, icebergs calve from glaciers, particularly those of Greenland (Ibid). NOAA’s National Ocean Service defines minimum characteristics of icebergs (according to the standard set by the International Ice Patrol) as follows:</span></p>
 <div class="page" title="Page 1">
 <div class="layoutArea">
@@ -73,9 +73,9 @@
 <div class="page" title="Page 2">
 <div class="layoutArea">
 <div class="column">
-<h1>Drift and Decay</h1>
+<h2>Drift and Decay</h2>
 <p>While some simple approximation formulas exist to estimate iceberg drift and decay, these tend to produce somewhat caricatured predictions that are unsuitable for most research purposes. Among more complex mathematical models, some are probabilistic, but most sophisticated contemporary models are deterministic and incorporate thermodynamics in their predictions. This section will present iceberg drift and decay approximation methods, explore the principal essential components of these modern models, and assess their strengths and limitations.</p>
-<h2>Approximation Formulas</h2>
+<h3>Approximation Formulas</h3>
 <p>Although they lack precision, approximation rules for iceberg drift and decay are helpful in that they are speedy.</p>
 <p>A frequent estimate of iceberg drift velocity is that it approximately equals 2% of the wind velocity relative to the ocean current (Smith, 1993). The approximation holds true for most cases in the Arctic, where small icebergs and strong winds are common, but does not in the Antarctic, where the combination of weak winds and generally larger icebergs render the effect of wind on iceberg drift negligible (Wagner et al., 2017).</p>
 <p>In their report for the CRREL titled Some Elements of Iceberg Technology, W. F. Weeks and M. Mellor propose the following iceberg ice loss formula:</p>
@@ -91,7 +91,7 @@
 <div class="page" title="Page 3">
 <div class="layoutArea">
 <div class="column">
-<h2>Dynamic and Thermodynamic Models</h2>
+<h3>Dynamic and Thermodynamic Models</h3>
 <p>Modelling the dynamics and thermodynamics of icebergs, published in 1997 and co-authored by Grant R. Bigg, Martin R. Wadley, David P. Stevens, and John A. Johnson, is a foundational paper for the admittedly very niche field of iceberg drift modelling. The paper proposes the following momentum equation of horizontal iceberg motion:</p>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/iceberg-figure-2.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/responsive/iceberg-figure-2-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/responsive/iceberg-figure-2-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/responsive/iceberg-figure-2-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/responsive/iceberg-figure-2-lg.png 1024w"  alt="figure 2: M*(dV_i/dt) = -M*f*k*x*V_i+F_a+F_w+F_i+F_p+F+r" width="844" height="132"></figure>
 <p>Where M is the iceberg's mass (kg), and V_i is the horizontal velocity (m*s^-1). <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">The </span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">components of the equation F_a, F_w, F_i, F_p, and F_r are respectively air and wind </span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">drag (F_a), water drag (F_w), sea ice drag (F_i), the horizontal pressure gradient force </span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">the water around the iceberg exerts on the volume that the iceberg displaces (F_p), </span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">water and wave drag (F_w), and the wave radiation force (F_r), while f is the Coriolis </span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">parameter, a value equal to 2Ω * sin phi, where Ω is the rate of rotation of the Earth, and phi is latitude (Holton &amp; Hakim, 2012) (reported in rad*s^-1) (Bigg et al., 1997).</span></p>
@@ -103,7 +103,7 @@
 <div class="layoutArea">
 <div class="column">
 <blockquote>
-<p>“The melting of an iceberg constantly changes its mass and shape, and thus must be modelled in any long-term simulation of trajectories... The melting/erosional processes that have been included are ‘basal’ convection or turbulent heat transfer, buoyant <span style="font-family: var(--font-serif); color: var(--text-primary-color); font-size: inherit; font-weight: var(--font-weight-normal);">convection, wave erosion, solar and sensible heating, and sublimation.” (p. 117)</span></p>
+<p>“The melting of an iceberg constantly changes its mass and shape, and thus must be modelled in any long-term simulation of trajectories... The melting/erosional processes that have been included are ‘basal’ convection or turbulent heat transfer, buoyant <span style="font-family: var(--font-serif); color: var(--text-primary-color); font-size: inherit;">convection, wave erosion, solar and sensible heating, and sublimation.” (p. 117)</span></p>
 </blockquote>
 <div class="page" title="Page 4">
 <div class="layoutArea">
@@ -142,7 +142,7 @@
 <div class="page" title="Page 6">
 <div class="layoutArea">
 <div class="column">
-<h1>Running a drift and decay model</h1>
+<h2>Running a drift and decay model</h2>
 <p>The model proposed by Wagner et al. (2017) is publicly available at http://eisenman.ucsd.edu/code.html, and as a MATLAB code repository on GitHub. This section will shortly describe the process of setting up and running the model using MATLAB online and report the model output generated using the described setup program parameters.</p>
 <p>After downloading the model repository from GitHub and uploading it to a directory of MATLAB Drive, I accessed the main program by opening the model file named “iceberg_model_WDE17.m”. I then confirmed that my MATLAB license included access to the MATLAB mapping toolbox, which the model requires to generate iceberg drift trail maps (Eisenman et al., 2021). The program code is clear and generously annotated with usage instructions. Its first four sections allow the user to define their own model parameters. Respectively these are: 1) a model data input section where the user can specify the ocean surface and ambient atmospheric temperature data which the model requires <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">and its source (ECCO or CCSM), 2) an iceberg parameter and analytical expression definition section in which properties such as air density, water density, or C' (see the iceberg decay equations described in section II.0b), 3) a space domain definition section in which the user specifies the area in which the model will compute iceberg trajectories as well as the boundaries for map figure generation, and 4) a run parameter definition section in which the user defines the time step length, the number of iceberg trajectories to compute, iceberg seed locations, seeding spacing, iceberg dimensions, and other settings specific to the desired simulation (Eisenman et al., 2021).</span></p>
 <div class="page" title="Page 7">
@@ -170,13 +170,13 @@
 <div class="page" title="Page 8">
 <div class="layoutArea">
 <div class="column">
-<h1>Concluding statement</h1>
+<h2>Concluding statement</h2>
 <p>Mathematical models of iceberg drift and decay are incredibly useful tools that can return results accurate enough to have consequential applications to scientific research, navigation, and security monitoring, but their high computing power requirements and relatively low accessibility to laypeople limit their use outside of well-funded research projects and state-run organisations. As a student, the MATLAB licence I bought for this project cost me $125 US, but for commercial or professional uses, the same license would have cost over $2000. Despite their efficacy and reliability, the high financial or material costs of entry and overall complexity of iceberg drift and decay modelling programs remain a major obstacle to their widespread adoption.</p>
 </div>
 </div>
 <div class="layoutArea">
 <div class="column">
-<h1>Sources Cited</h1>
+<h2>Sources Cited</h2>
 <p>Ahlers, G. (2009). Turbulent convection. Physics, 2. https://physics.aps.org/articles/v2/74</p>
 <p>Bigg, G. R., Wadley, M. R., Stevens, D. P., &amp; Johnson, J. A. (1997). Modelling the dynamics and thermodynamics of icebergs. Cold Regions Science and Technology, 26(2), 113–135. https://doi.org/10.1016/S0165-232X(97)00012-8</p>
 <p>Convection. (n.d.). Retrieved 4 March 2021, from https://www.chemeurope.com/en/encyclopedia/Convection.html#Buoyancy_induced_ convection_not_due_to_heat</p>
@@ -187,8 +187,7 @@
 <div class="layoutArea">
 <div class="column">
 <p>Eisenman, I., Dell, R. W., &amp; Wagner, T. J. W. (2021). Model of iceberg drift and decay (p. 5436915492 Bytes) [Data set]. figshare. https://doi.org/10.6084/M9.FIGSHARE.12857672</p>
-<p>Elmer Ice–Home. (n.d.). Retrieved 4 March 2021, from https://elmerice.elmerfem.org/ Holton, J., &amp; Hakim, G. (2012). An Introduction to Dynamic Meteorology, (5th ed., Vol.</p>
-<p>88).</p>
+<p>Elmer Ice–Home. (n.d.). Retrieved 4 March 2021, from https://elmerice.elmerfem.org/ Holton, J., &amp; Hakim, G. (2012). An Introduction to Dynamic Meteorology, (5th ed., Vol.88).</p>
 <p>Iceberg | ice formation. (n.d.). Encyclopedia Britannica. Retrieved 4 March 2021, from https://www.britannica.com/science/iceberg</p>
 <p>Iceberg Classification Systems. (n.d.). Retrieved 4 March 2021, from https://www.universalcompendium.com/tables/science/iceb.htm</p>
 <p>MITberg: Icebergs and Climate Change. (n.d.). Retrieved 4 March 2021, from http://www.geo.umass.edu/faculty/condron/MITberg/download.htm</p>
