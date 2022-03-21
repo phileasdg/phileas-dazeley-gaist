@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-21T12:23:50-04:00</updated>
+    <updated>2022-03-21T12:29:43-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/"/>
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/</id>
+            <category term="undergraduate work"/>
 
-        <updated>2022-03-21T12:23:50-04:00</updated>
+        <updated>2022-03-21T12:29:43-04:00</updated>
             <summary>
                 <![CDATA[
                     I wrote this short essay for the college course "Polar Ecology and&hellip;
@@ -29,6 +30,7 @@
 <div class="layoutArea">
 <div class="column">
 <p>I wrote this short essay for the college course "Polar Ecology and Exploration" taught by Professor Sean Todd, at College of the Atlantic, in Winter 2020. I have reproduced it here as a sample of my undergraduate writing. </p>
+<p> </p>
 <h1>Introduction</h1>
 <p>This paper will explore and contextualise the principles and methods at the centre of contemporary iceberg drift and decay mathematical models. To do so, it will first examine the incentives for institutional efforts to track drifting icebergs. Secondly, this paper will engage in an extensive introductory exploration of iceberg drift and decay approximation formulas and dynamic and thermodynamic models and assess their respective strengths and limitations. Finally, it will describe the process of running a modern drift and decay model simulation using MATLAB and report the raw simulation results.</p>
 <p><span style="color: var(--headings-color); font-family: var(--font-base); font-size: 1.80203em; font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);">Incentives for iceberg tracking</span></p>
