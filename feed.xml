@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-21T12:53:43-04:00</updated>
+    <updated>2022-03-21T14:29:12-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -34,7 +34,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs-exploring-the-mathematics-oficeberg-drift-and-decay-models/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-03-21T12:29:43-04:00</updated>
+        <updated>2022-03-21T14:29:12-04:00</updated>
             <summary>
                 <![CDATA[
                     I wrote this short essay for the college course "Polar Ecology and&hellip;
@@ -127,8 +127,7 @@
 <div class="page" title="Page 6">
 <div class="layoutArea">
 <div class="column">
-<p>a) Observed iceberg trajectories using data from the Antarctic Iceberg Tracking Database.<br>b) One-year duration simulated trajectories for 200 icebergs of lengths ranging between 15 and 20 km using</p>
-<p>the drift and decay model proposed by Wagner et al. (2017). (Journal of Physical Oceanography 47, 7; 10.1175/JPO-D-16-0262.1)</p>
+<p>a) Observed iceberg trajectories using data from the Antarctic Iceberg Tracking Database.<br>b) One-year duration simulated trajectories for 200 icebergs of lengths ranging between 15 and 20 km using the drift and decay model proposed by Wagner et al. (2017). (Journal of Physical Oceanography 47, 7; 10.1175/JPO-D-16-0262.1)</p>
 </div>
 </div>
 </div>
