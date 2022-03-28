@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-27T20:21:21-04:00</updated>
+    <updated>2022-03-27T22:17:12-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -20,16 +20,16 @@
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-03-27T20:21:21-04:00</updated>
+        <updated>2022-03-27T22:17:12-04:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure17-2.png" alt="" />
+                        <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
                     In this project, I will build nonlinear models using spline regressions, and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure17-2.png" alt="" />
+                    <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
                 <p>In this project, I will build nonlinear models using spline regressions, and a general additive model to predict the initial conditions of sets of points of the bifurcation diagram (final state diagram) of the logistic function:</p>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/logistic_equation.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-lg.png 1024w"  alt="" width="382" height="55"></figure>
 <p> </p>
