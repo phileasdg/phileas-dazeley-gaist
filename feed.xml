@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-27T22:17:12-04:00</updated>
+    <updated>2022-03-27T23:00:44-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-03-27T22:17:12-04:00</updated>
+        <updated>2022-03-27T23:00:44-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
@@ -32,8 +32,7 @@
                     <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
                 <p>In this project, I will build nonlinear models using spline regressions, and a general additive model to predict the initial conditions of sets of points of the bifurcation diagram (final state diagram) of the logistic function:</p>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/logistic_equation.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/logistic_equation-lg.png 1024w"  alt="" width="382" height="55"></figure>
-<p> </p>
-<h1>The bifurcation diagram of the logistic equation</h1>
+<h2>The bifurcation diagram of the logistic equation</h2>
 <p>First, let’s briefly explore the bifurcation diagram of the logistic equation, which we can plot using the code below:</p>
 <pre class="r"><code class="hljs">logistic_eq &lt;- <span class="hljs-keyword">function</span>(x, r){<span class="hljs-keyword">return</span>(r*x*(<span class="hljs-number">1</span>-x))}
 
@@ -88,7 +87,7 @@ bifurcation_data(x, x_0, <span class="hljs-number">0</span>, resolution-<span cl
   labs(title=paste0(<span class="hljs-string">"Bifurcation diagram of the logistic equation for x_0 = "</span>, x_0)) +
   theme_tufte()</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure3-2.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure3-2-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure3-2-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure3-2-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure3-2-lg.png 1024w"  alt="" width="1344" height="960"></figure>
-<h1>Data generation and formatting</h1>
+<h2>Data generation and formatting</h2>
 <p>Now that we’re a bit more comfortable with bifurcation diagram of the logistic equation conceptually, let’s collect the data we’ll need to visualise variation of initial conditions, and from which we could build a model to predict the initial conditions used to generate a set of points using iterations of the logistic equations for values in the set of <span class="math inline"><span id="MathJax-Element-5-Frame" class="MathJax" style="box-sizing: border-box; display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 14px; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; position: relative;" tabindex="0" role="presentation" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-49" class="math"><span id="MathJax-Span-50" class="mrow"><span id="MathJax-Span-51" class="mi">r</span></span></span><span class="MJX_Assistive_MathML" role="presentation">r</span></span></span> values <code>x</code>.</p>
 <p>The following code will give us <code>resolution</code> r resolution by <code>resolution</code> iteration resolution point sets for <code>resolution</code> initial condition values between 0 and 1. Together, these variables form a <span class="math inline"><span id="MathJax-Element-6-Frame" class="MathJax" style="box-sizing: border-box; display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 14px; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; position: relative;" tabindex="0" role="presentation" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt;"><span id="MathJax-Span-52" class="math"><span id="MathJax-Span-53" class="mrow"><span id="MathJax-Span-54" class="mi">r</span><span id="MathJax-Span-55" class="mi">e</span><span id="MathJax-Span-56" class="mi">s</span><span id="MathJax-Span-57" class="mi">o</span><span id="MathJax-Span-58" class="mi">l</span><span id="MathJax-Span-59" class="mi">u</span><span id="MathJax-Span-60" class="mi">t</span><span id="MathJax-Span-61" class="mi">i</span><span id="MathJax-Span-62" class="mi">o</span><span id="MathJax-Span-63" class="msubsup"><span id="MathJax-Span-64" class="mi">n</span><span id="MathJax-Span-65" class="mn">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation">resolution3</span></span></span> resolution 3d space which that data will occupy.</p>
 <p>We’ll use a little higher resolution settings for our visualisations and data exploration:</p>
@@ -116,7 +115,7 @@ data &lt;- tibble()
 ## 6     0 0.339  &lt;dbl [60]&gt;   &lt;int [60]&gt;</code></pre>
 </div>
 <div id="data-exploration-and-visualisation" class="section level2">
-<h1>Data exploration and visualisation</h1>
+<h2>Data exploration and visualisation</h2>
 <p>Let’s also preview the data graphically altogether as a scatter plot:</p>
 <pre class="r"><code class="hljs">data %&gt;% unnest(everything()) %&gt;% 
   ggplot(aes(r, final_state, colour=x_0)) + 
@@ -252,7 +251,7 @@ data &lt;- tibble()
                     yaxis = list(title = <span class="hljs-string">"iteration number"</span>),
                     zaxis = list(title = <span class="hljs-string">"r"</span>)))</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure13.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure13-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure13-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure13-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure13-lg.png 1024w"  alt="" width="1274" height="906"></figure>
-<h1>Model-planning considerations</h1>
+<h2>Model-planning considerations</h2>
 <p>Now that we have a solid understanding of the shape of our data set, we can design a modelling approach.</p>
 <p>The goal is to predict the initial condition <span class="math inline"><span id="MathJax-Element-13-Frame" class="MathJax" style="box-sizing: border-box; display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 14px; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; position: relative;" tabindex="0" role="presentation" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"><span id="MathJax-Span-124" class="math"><span id="MathJax-Span-125" class="mrow"><span id="MathJax-Span-126" class="msubsup"><span id="MathJax-Span-127" class="mi">x</span><span id="MathJax-Span-128" class="mn">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation">x0</span></span></span> used to produce a bifurcation diagram. In other words, we are going to construct a model using <code>final_state</code> orbit values + <code>r</code> + <code>iter_num</code> to predict <code>x_0</code>.</p>
 <p>I hypothesise that it will be easier to produce models with high predictive power and reliability for early iterations, and for <span class="math inline"><span id="MathJax-Element-14-Frame" class="MathJax" style="box-sizing: border-box; display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 14px; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; position: relative;" tabindex="0" role="presentation" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-129" class="math"><span id="MathJax-Span-130" class="mrow"><span id="MathJax-Span-131" class="mi">r</span></span></span><span class="MJX_Assistive_MathML" role="presentation">r</span></span></span> values under 3, but that predictive power will tend to be harder to maintain for later iterations, or most values or <span class="math inline"><span id="MathJax-Element-15-Frame" class="MathJax" style="box-sizing: border-box; display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 14px; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; position: relative;" tabindex="0" role="presentation" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-132" class="math"><span id="MathJax-Span-133" class="mrow"><span id="MathJax-Span-134" class="mi">r</span></span></span><span class="MJX_Assistive_MathML" role="presentation">r</span></span></span> above 3.</p>
@@ -305,7 +304,7 @@ data &lt;- tibble()
   theme_tufte() +
   theme(legend.position = <span class="hljs-string">"none"</span>)</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure18.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure18-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure18-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure18-md.png 768w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/responsive/figure18-lg.png 1024w"  alt="" width="1344" height="960"></figure>
-<h1>Model</h1>
+<h2>Model</h2>
 <p>We’ve seen from the data exploration above that we should build our model on a subset of the data composed of early iterates orbit values, at one value of R.</p>
 <pre class="r"><code class="hljs">resolution &lt;- <span class="hljs-number">200</span> <span class="hljs-comment"># resolution, in number of units per dimension</span>
 x &lt;- seq(<span class="hljs-number">0</span>, <span class="hljs-number">4</span>, length=resolution) <span class="hljs-comment"># r scale</span>
@@ -547,7 +546,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/mathematical-systems-thinking-for-human-ecology/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-03-27T19:40:01-04:00</updated>
+        <updated>2022-03-27T22:58:37-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/10/lsystem1.png" alt="" />
@@ -561,7 +560,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
 <div class="section">
 <div class="layoutArea">
 <div class="column">
-<h1>The Human Ecology of differential equations</h1>
+<h2>The Human Ecology of differential equations</h2>
 <div class="page" title="Page 1">
 <div class="section">
 <div class="layoutArea">
@@ -574,7 +573,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
 <div class="section">
 <div class="layoutArea">
 <div class="column">
-<h1>Do we need to model everything?</h1>
+<h2>Do we need to model everything?</h2>
 <div class="page" title="Page 1">
 <div class="section">
 <div class="layoutArea">
@@ -592,7 +591,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
 <div class="section">
 <div class="layoutArea">
 <div class="column">
-<h1>Not-entirely deterministic systems</h1>
+<h2>Not-entirely deterministic systems</h2>
 <div class="page" title="Page 2">
 <div class="section">
 <div class="layoutArea">
@@ -604,7 +603,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
 <div class="section">
 <div class="layoutArea">
 <div class="column">
-<h1>Mathematics as a shimmer through a lens</h1>
+<h2>Mathematics as a shimmer through a lens</h2>
 <div class="page" title="Page 3">
 <div class="section">
 <div class="layoutArea">
