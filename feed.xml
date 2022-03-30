@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-30T00:22:24-04:00</updated>
+    <updated>2022-03-30T00:29:10-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -14,13 +14,13 @@
         <author>
             <name>Phileas Dazeley-Gaist</name>
         </author>
-        <link href="https://phileasdg.github.io/phileas-dazeley-gaist/an-exploration-of-the-logistic-function-using-general-additive-models-and-spline-regressions-in-r/"/>
-        <id>https://phileasdg.github.io/phileas-dazeley-gaist/an-exploration-of-the-logistic-function-using-general-additive-models-and-spline-regressions-in-r/</id>
+        <link href="https://phileasdg.github.io/phileas-dazeley-gaist/logistic-model-bifurcation-regressions/"/>
+        <id>https://phileasdg.github.io/phileas-dazeley-gaist/logistic-model-bifurcation-regressions/</id>
             <category term="undergraduate work"/>
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-03-30T00:22:24-04:00</updated>
+        <updated>2022-03-30T00:29:10-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
