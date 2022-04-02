@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-03-30T14:52:05-04:00</updated>
+    <updated>2022-04-02T02:40:03-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/standing-stones-and-megaliths-of-st-just/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-03-30T14:52:05-04:00</updated>
+        <updated>2022-04-02T02:39:48-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/9/menhirs-2.JPG" alt="" />
@@ -43,7 +43,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/mathematical-systems-thinking-for-human-ecology/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-03-30T14:52:00-04:00</updated>
+        <updated>2022-04-02T02:39:57-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/10/lsystem1.png" alt="" />
@@ -617,7 +617,7 @@
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-03-30T14:51:40-04:00</updated>
+        <updated>2022-04-02T02:40:03-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
@@ -1141,10 +1141,11 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
         </author>
         <link href="https://phileasdg.github.io/phileas-dazeley-gaist/graphical-iteration-in-r/"/>
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/graphical-iteration-in-r/</id>
+            <category term="undergraduate work"/>
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-03-30T14:51:29-04:00</updated>
+        <updated>2022-04-02T02:39:43-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/7/staircase-diagram.png" alt="" />

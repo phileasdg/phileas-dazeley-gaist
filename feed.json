@@ -23,7 +23,7 @@
                    "undergraduate work"
             ],
             "date_published": "2022-03-30T14:52:05-04:00",
-            "date_modified": "2022-03-30T14:52:05-04:00"
+            "date_modified": "2022-04-02T02:39:48-04:00"
         },
         {
             "id": "https://phileasdg.github.io/phileas-dazeley-gaist/mathematical-systems-thinking-for-human-ecology/",
@@ -39,7 +39,7 @@
                    "undergraduate work"
             ],
             "date_published": "2022-03-30T14:52:00-04:00",
-            "date_modified": "2022-03-30T14:52:00-04:00"
+            "date_modified": "2022-04-02T02:39:57-04:00"
         },
         {
             "id": "https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs/",
@@ -89,7 +89,7 @@
                    "R"
             ],
             "date_published": "2022-03-30T14:51:40-04:00",
-            "date_modified": "2022-03-30T14:51:40-04:00"
+            "date_modified": "2022-04-02T02:40:03-04:00"
         },
         {
             "id": "https://phileasdg.github.io/phileas-dazeley-gaist/graphical-iteration-in-r/",
@@ -102,11 +102,12 @@
                 "name": "Phileas Dazeley-Gaist"
             },
             "tags": [
+                   "undergraduate work",
                    "programming",
                    "R"
             ],
             "date_published": "2022-03-30T14:51:29-04:00",
-            "date_modified": "2022-03-30T14:51:29-04:00"
+            "date_modified": "2022-04-02T02:39:43-04:00"
         }
     ]
 }
