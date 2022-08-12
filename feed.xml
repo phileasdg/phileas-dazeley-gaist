@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-08-12T14:17:49+02:00</updated>
+    <updated>2022-08-12T14:22:35+02:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="max msp jitter"/>
             <category term="art?"/>
 
-        <updated>2022-08-12T14:17:49+02:00</updated>
+        <updated>2022-08-12T14:20:52+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/17/Screenshot-2022-08-12-at-01.07.35.png" alt="" />
@@ -58,7 +58,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/standing-stones-and-megaliths-of-st-just/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:17:32+02:00</updated>
+        <updated>2022-08-12T14:21:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/9/menhirs-2.JPG" alt="" />
@@ -83,7 +83,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:15:59+02:00</updated>
+        <updated>2022-08-12T14:21:10+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/Iceberg_Ilulissat.jpg" alt="CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid&#x3D;730855" />
@@ -302,7 +302,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/mathematical-systems-thinking-for-human-ecology/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:15:48+02:00</updated>
+        <updated>2022-08-12T14:22:35+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/10/lsystem1.png" alt="" />
@@ -324,7 +324,7 @@
 <p>A reflection on the places and roles of mathematics in human ecological undertakings would without a doubt be misleading if it were not to include mention of differential equations and their long history of being used for dynamical systems modelling.</p>
 <p>Differential equations are a classic tool for dynamical systems modelling, as they offer researchers a starting point from which to model real-world interactions in environments without having to know the exact processes that underly them. In essence, they allow researchers to study the dynamics of a system from derivatives of the ”exact processes” functions that compose it, and depending on whether a system of differential equations is solvable, that is to say, whether one can arrive at the definitive ”exact process” functions that the differential equations of the system are derivatives of, they may allow researchers to model a given dynamic system completely.</p>
 <p>Differential equations are the go-to tool for complex dynamical systems modelling and analysis, and are used extensively to model physical, chemical, and purely mathematical processes. From the beginning of the century to the mid-1970s, ecologists, meteorologists, and financiers attempted to apply the same techniques to their fields (see for instance the work of Edward Lorenz or Stephen Smale). Ecologists and social scientists, including human ecologists use these approaches extensively (see An Ecological Introduction, K. E. Boulding, 1950, or Complex ecosystem and sustainable development, Ma Shijun &amp; Wang Rusong, 1990) But while these attempts in some cases revealed new facets of mathe- matics, they generally failed to do what they set out to achieve. Why?</p>
-<p>The answer lies in the features of naturally occurring systems. In a controlled environment, sets of ”exact processes” functions can be enforced as axioms of a closed system, outside functions apply to a system and manage its behaviour. In that case, systems of differential equations may be an appropriate modelling tool. Sadly, there’s a big catch: In the wide wide world we live in, most naturally occurring systems are adaptive, meaning as their dynamics evolve, the ”exact processes” functions that constitute an adaptive system change, are in unpredictable and constant flux. The cause for these changes is that the ”exact processes” functions are part of the systems themselves, and dependent on material and relational processes that occur within the respective systems, which are described by other ”exact processes” functions. The interactions between these functions can form extensive networks which describe intricate mixes of flows, stocks, and transformations. Differential equations can model Dynamic Systems but not Adaptive Systems. For this latter type of system, differential equations are of no help at all.</p>
+<p>The answer lies in the features of naturally occurring systems. In a controlled environment, sets of ”exact processes” functions can be enforced as axioms of a closed system, outside functions apply to a system and manage its behaviour. In that case, systems of differential equations may be an appropriate modelling tool. Sadly, there’s a big catch: In the wide wide world we live in, most naturally occurring systems are adaptive, meaning as their dynamics evolve, the ”exact processes” functions that constitute an adaptive system change, are in unpredictable and constant flux. The cause for these changes is that the ”exact processes” functions are part of the systems themselves, and dependent on material and relational processes that occur within the respective systems, which are described by other ”exact processes” functions. The interactions between these functions can form extensive networks which describe intricate mixes of flows, stocks, and transformations. Differential equations can model Dynamic Systems but not Adaptive Systems. For this latter type of system, differential equations are of very limited help.</p>
 <div class="page" title="Page 1">
 <div class="section">
 <div class="layoutArea">
