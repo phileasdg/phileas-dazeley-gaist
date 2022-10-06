@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-08-19T22:25:14+02:00</updated>
+    <updated>2022-08-19T16:25:14-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="max msp jitter"/>
             <category term="art?"/>
 
-        <updated>2022-08-12T14:20:52+02:00</updated>
+        <updated>2022-08-12T08:20:52-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/17/Screenshot-2022-08-12-at-01.07.35.png" alt="" />
@@ -58,7 +58,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/standing-stones-and-megaliths-of-st-just/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:21:03+02:00</updated>
+        <updated>2022-08-12T08:21:03-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/9/menhirs-2.JPG" alt="" />
@@ -83,7 +83,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:21:10+02:00</updated>
+        <updated>2022-08-12T08:21:10-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/8/Iceberg_Ilulissat.jpg" alt="CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid&#x3D;730855" />
@@ -302,7 +302,7 @@
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/mathematical-systems-thinking-for-human-ecology/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:22:35+02:00</updated>
+        <updated>2022-08-12T08:22:35-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/10/lsystem1.png" alt="" />
@@ -431,7 +431,7 @@
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-08-19T22:25:14+02:00</updated>
+        <updated>2022-08-19T16:25:14-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/11/figure14-2.png" alt="" />
@@ -959,7 +959,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
             <category term="programming"/>
             <category term="R"/>
 
-        <updated>2022-08-12T14:15:11+02:00</updated>
+        <updated>2022-08-12T08:15:11-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/7/staircase-diagram.png" alt="" />
@@ -1131,7 +1131,7 @@ RMSE(predictions_gam, test_data$x_0)</code></pre>
         <id>https://phileasdg.github.io/phileas-dazeley-gaist/ai-contemporary-uses-and-questions-for-audiovisual-entertainment/</id>
             <category term="undergraduate work"/>
 
-        <updated>2022-08-12T14:14:54+02:00</updated>
+        <updated>2022-08-12T08:14:54-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/12/GAN-video-2.png" alt="" />
