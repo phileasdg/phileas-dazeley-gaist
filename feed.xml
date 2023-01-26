@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2022-12-18T12:14:44-05:00</updated>
+    <updated>2023-01-26T16:14:06-05:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -191,18 +191,20 @@
             <category term="Mathematica"/>
             <category term="Art?"/>
 
-        <updated>2022-12-18T11:36:45-05:00</updated>
+        <updated>2023-01-26T16:14:06-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23/Screenshot-2022-12-08-at-23.12.15.png" alt="" />
-                    Pre(r)amble I still haven't found the best way to share Mathematica projects,&hellip;
+                    Update: You can read an expanded exploration of this project at this&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23/Screenshot-2022-12-08-at-23.12.15.png" class="type:primaryImage" alt="" /></p>
-                <h2>Pre(r)amble</h2>
-<figure class="post__image">I still haven't found the best way to share Mathematica projects, which is a shame because it has quickly become my favourite prototyping and computational exploration programming language. Somehow, linking to mathematica notebooks in the cloud just doesn't feel right. It feels like cheating, like I'm getting away with a pretend blog post. It's all pretty silly, but there you go. <br><br>Just a couple days ago, I wrote a notebook implementing a video feedback synthesis process diagram by José María Castelo from his project [MorphogenCV](https://github.com/jmcastelo/MorphogenCV). <br><br>Here is José's diagram: <br><br><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//image.png" alt="" width="449" height="824" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-md.png 768w"></figure><br><br>In this blog post, I'm going to write about this implementation and the cool things it does. I'll explore the code, providing explanations and code output as examples. Note: In this project, I wrote my code above all to be readable. It is quite slow, and I may rewrite it some day to be much faster. There are many obvious ways it could be improved, but I am satisfied now with how easy it is to parse when reading.</p>
+                <h2>Update:</h2>
+<p>You can read an expanded exploration of this project at <a href="https://community.wolfram.com/groups/-/m/t/2816083" target="_blank" rel="noopener">this Wolfram community forum page</a>. If you're interested in interacting directly with my code, that's the place. ;)</p>
+<h2>Pre(r)amble</h2>
+<figure class="post__image">I still haven't found the best way to share Mathematica projects, which is a shame because it has quickly become my favourite prototyping and computational exploration programming language. Somehow, linking to Mathematica notebooks in the cloud just doesn't feel right. It feels like cheating, like I'm getting away with a pretend blog post. It's all pretty silly, but there you go. <br><br>Just a couple days ago, I wrote a notebook implementing a video feedback synthesis process diagram by José María Castelo from his project [MorphogenCV](https://github.com/jmcastelo/MorphogenCV). <br><br>Here is José's diagram: <br><br><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//image.png" alt="" width="449" height="824" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/23//responsive/image-md.png 768w"></figure><br><br>In this blog post, I'm going to write about this implementation and the cool things it does. I'll explore the code, providing explanations and code output as examples. Note: In this project, I wrote my code above all to be readable. It is quite slow, and I may rewrite it some day to be much faster. There are many obvious ways it could be improved, but I am satisfied now with how easy it is to parse when reading.</p>
 <h2>Video Feedback</h2>
 <p>Video feedback is a unique visual phenomenon that occurs when a video camera is pointed at a monitor displaying the camera's own output. This creates a feedback loop, resulting in a pattern of video distortion and abstraction. By following José's diagram, we will be able to create a Mathematica function that can simulate this phenomenon and produce really cool video feedback patterns. Let's begin.</p>
 <h2>Understanding the process</h2>
