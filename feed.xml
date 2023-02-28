@@ -3,14 +3,14 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2023-02-28T11:30:51-05:00</updated>
+    <updated>2023-02-28T11:39:36-05:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
     <id>https://phileasdg.github.io/phileas-dazeley-gaist</id>
 
     <entry>
-        <title>Mathematics as Human Ecology</title>
+        <title>HEE: Mathematics as Human Ecology</title>
         <author>
             <name>Phileas Dazeley-Gaist</name>
         </author>
@@ -19,17 +19,19 @@
         <media:content url="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/26/poster-2.png" medium="image" />
             <category term="Undergraduate work"/>
 
-        <updated>2023-02-28T11:30:51-05:00</updated>
+        <updated>2023-02-28T11:39:36-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/26/poster-2.png" alt="" />
-                    Introduction I address this essay to the mathematically sceptical human ecologists. Those&hellip;
+                    Foreword The Human Ecology Essay (HEE) is a senior year graduation requirement&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/26/poster-2.png" class="type:primaryImage" alt="" /></p>
-                <h2>Introduction</h2>
+                <h2>Foreword</h2>
+<p>The Human Ecology Essay (HEE) is a senior year graduation requirement at College of the Atlantic. It is an opportunity to reflect on one's learning journey at the college and to share one's unique perspectives on human ecological investigations and practices. Each year, College of the Atlantic publishes a selection of these essays. This is mine</p>
+<h2>Introduction</h2>
 <p>I address this essay to the mathematically sceptical human ecologists. Those that would prefer not to think about maths if they can prevent it. In the next few pages, I hope to plant a grain in your mind:</p>
 <p class="align-center"><em>Mathematics and ontology of mathematics <strong>are</strong> human ecology.</em></p>
 <p>I will introduce you to a selection of mathematical tools and topics which I find personally exciting and stimulating as a young human ecologist; subjects that showcase how diverse and surprising mathematics can be. These are subjects that may not <em>feel like maths.</em></p>
