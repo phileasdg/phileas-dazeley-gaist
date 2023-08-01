@@ -144,10 +144,11 @@
                 "name": "Phileas Dazeley-Gaist"
             },
             "tags": [
-                   "Undergraduate work"
+                   "Undergraduate work",
+                   "GIS"
             ],
             "date_published": "2022-08-12T08:17:32-04:00",
-            "date_modified": "2022-12-09T09:36:17-05:00"
+            "date_modified": "2023-07-31T12:39:40-04:00"
         },
         {
             "id": "https://phileasdg.github.io/phileas-dazeley-gaist/tracking-icebergs/",
