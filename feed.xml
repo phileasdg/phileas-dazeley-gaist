@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2023-08-08T13:05:03-04:00</updated>
+    <updated>2023-08-08T14:12:36-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="Programming"/>
             <category term="GIS"/>
 
-        <updated>2023-08-08T13:05:03-04:00</updated>
+        <updated>2023-08-08T14:12:36-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/PosterThin-3.png" alt="" />
@@ -67,7 +67,7 @@
 <h3>Team/Yacht level data</h3>
 <p>The SeaWise <em>Events </em>database also stores information about the contestants. It currently contains over 30,000.00 entries, and is steadily growing. Here is a snapshot of a demo showcasing some of the information SeaWise stores about race contestants:</p>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/5tables.gif" alt="" width="1886" height="1088"></figure>
-<h3>Flagging critical moments (Safety example)</h3>
+<h3>Flagging critical moments (Safety examples)</h3>
 <p>SeaWise leverages sailing event navigation and weather data to help flag for critical moments, for instance, safety crises. Safety crises are sadly too common in offshore sailing events, particularly during longer races. Let's consider two examples from once such race, the 2022 Golden Globe Race.</p>
 <p>The Golden Globe Race is a full circumnavigation in solitary with no stops, no re-provisioning, no outside assistance, and no modern equipment, using astral navigation. It is a legendary race which has claimed many yachts. Most recently, the 2022 GGR claimed three. Among them, Asteria, captained by Tapio Lehtinen, and Puffin, captained by Ian Herbert-Jones will constitute the examples in this section.</p>
 <p>The goal of this section is to highlight how SeaWise tools can assist in the monitoring, flagging, and analysis of safety crises at sea.</p>
