@@ -3,7 +3,7 @@
     <title>Phileas Dazeley-Gaist</title>
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist/feed.xml" rel="self" />
     <link href="https://phileasdg.github.io/phileas-dazeley-gaist" />
-    <updated>2023-08-08T12:58:52-04:00</updated>
+    <updated>2023-08-08T13:05:03-04:00</updated>
     <author>
         <name>Phileas Dazeley-Gaist</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="Programming"/>
             <category term="GIS"/>
 
-        <updated>2023-08-08T12:58:52-04:00</updated>
+        <updated>2023-08-08T13:05:03-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/PosterThin-3.png" alt="" />
@@ -75,7 +75,7 @@
 <p>Tapio's yacht, Asteria, <a href="https://www.yachtingmonthly.com/boat-events/golden-globe-race/golden-globe-race-tapio-lehtinen-within-two-minutes-the-water-had-gone-from-knee-to-waist-height-i-knew-i-had-to-leave-the-boat-91250">sank very suddenly</a> on November 18th 2022 in the South Indian Ocean. He was rescued after a night in his life raft on November 19th 2023.</p>
 <p>We can consult our database for information about Tapio:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/Screenshot-2023-08-08-at-01.02.14.png" alt="" width="567" height="176" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.02.14-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.02.14-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.02.14-md.png 768w"></figure>
-<p>We may ask where Tapio was around the moment of the incident:</p>
+<p>You may ask where Tapio was around the moment of the incident:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/Screenshot-2023-08-08-at-01.20.24.png" alt="" width="343" height="303" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.20.24-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.20.24-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.20.24-md.png 768w"></figure>
 <p>And we can explore his navigation data and its derivatives:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/3tapio.gif" alt="" width="499" height="669"></figure>
@@ -84,16 +84,16 @@
 <p>Ian's yacht, Puffin, rolled and dismasted in a confused seas on April 9th 2023 in the South Atlantic Ocean. He was rescued on April 11th 2023.</p>
 <p>We can consult our database for information about Ian:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/Screenshot-2023-08-08-at-01.10.59.png" alt="" width="257" height="198" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.59-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.59-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.59-md.png 768w"></figure>
-<p>We may ask where Ian was around the moment of the incident:</p>
+<p>You may ask where Ian was around the moment of the incident:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/Screenshot-2023-08-08-at-01.19.38.png" alt="" width="341" height="291" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.19.38-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.19.38-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.19.38-md.png 768w"></figure>
 <p>And we can explore his navigation data and its derivatives:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/4ian.gif" alt="" width="500" height="674"></figure>
-<p>We can also consult meteorological forecast and historical data to help identify signs of increased safety risk. Let's look at wind speeds, for example. SeaWise data includes the NOAA GFS Atmosphere and Wave models (global), as well as many other cutting-edge remote sensing data products from NOAA and NASA.</p>
+<p>We can also consult meteorological forecast and historical data to help identify signs of increased safety risk. Let's look at wind speeds, for example. SeaWise data includes the global NOAA GFS Atmosphere and Wave models as well as many other cutting-edge remote sensing data products from NOAA and NASA.</p>
 <p>Here is a map showing winds at or above Gale force worldwide at the time of the crisis. Ian's position is show in red.</p>
 <figure class="post__image"><img loading="lazy"  src="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/Screenshot-2023-08-08-at-01.10.03.png" alt="" width="1356" height="668" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.03-xs.png 300w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.03-sm.png 480w ,https://phileasdg.github.io/phileas-dazeley-gaist/media/posts/29/responsive/Screenshot-2023-08-08-at-01.10.03-md.png 768w"></figure>
-<p>In Ian's case, the wind speed data would have been a clear indicator of increased safety risk, and may have helped to detect the safety crisis.</p>
+<p>In Ian's case, the wind speed data would have been a clear indicator of increased safety risk, and may have helped to detect the safety crisis. </p>
 <h2>Closing remarks and thanks</h2>
-<p>If you have read to the bottom of this page, I hope you are curious and excited about the future of this venture, and that you will consider sharing this work with your connections in the world of competitive sailing. If you are interested in testing future demos, please <a href="https://www.linkedin.com/in/phileas/">get in touch</a>. Broadly, if you are curious about our work and are keen to chat, do not hesitate to reach out. And thank you for your interest in SeaWise!</p>
+<p>If you have read to the bottom of this page, I hope you are curious and excited about the future of this venture, and that you will consider sharing this work with your connections in the world of competitive sailing. If you are interested in testing future demos, please <a href="https://www.linkedin.com/in/phileas/">get in touch</a>. This project is in its infancy and will require feedback and support to grow. Broadly, if you are curious about our work and are keen to chat, do not hesitate to reach out. And thank you for your interest in SeaWise!</p>
 </div>
 </div>
 </div>
